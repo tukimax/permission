@@ -127,7 +127,7 @@ fi
 ### Pasang Menu
     # > Add menu
     mkdir -p /tmp/menu
-    wget -O /tmp/menu/menu.zip "https://raw.githubusercontent.com/tukimax/permission/main" >/dev/null 2>&1
+    wget -O /tmp/menu/menu.zip "https://raw.githubusercontent.com/tukimax/permission/main/menu.zip" >/dev/null 2>&1
     cd /tmp/menu && unzip menu.zip >/dev/null 2>&1
     rm menu.zip && chmod +x * && cd
     mv /tmp/menu/* /usr/sbin/
